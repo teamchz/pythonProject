@@ -5,9 +5,9 @@ print()
 
 # Create row Period: 1 - 10 %
 row = [x for x in range(1, 11)]
-row.insert(0, "Period")
+print("Period\t\t", end="")
 for i in row:
-    print(i, end="\t\t")
+    print(str(i) + "%", end="\t\t")
 print()
 
 # Create each column and calculate
