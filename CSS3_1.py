@@ -5,5 +5,5 @@ def reverse(x):
         return x[::-1]
 
 
-word = input("Enter word: ")
+word = "Hello World"
 print(reverse(word))

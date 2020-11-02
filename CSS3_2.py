@@ -1,4 +1,4 @@
-word = input("Enter word: ")
+word = "Hello World"
 character = list(word)
 remove_index = [i for i in range(len(word)) if i % 2 != 0]
 b = []
